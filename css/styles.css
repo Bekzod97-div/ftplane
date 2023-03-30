@@ -193,6 +193,58 @@ img {
     border-color: var(--blue-color);
 }
 
+/* Hero stytles */
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1301px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aviation-text {
+    display: block;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.hero-img {
+    width: 1120px;
+    object-fit: cover;
+    transform: translateY(-136px);
+    height: 398px;
+    z-index: 5;
+}
+
+/* Hero heading */
+.hero__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-100px);
+}
+
+.hero__title {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 1.5%;
+    text-align: center;
+}
+
+.hero__text {
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--white-seven);
+    text-align: center;
+}
+
 
 /* Main content */
 .main-content {
