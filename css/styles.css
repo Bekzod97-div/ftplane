@@ -483,6 +483,9 @@ img {
 }
 
 /* Promo styles */
+.promo {
+    display: flex;
+}
 /* Promo image container */
 .promo__image-container {
     position: relative;
@@ -491,6 +494,7 @@ img {
     justify-content: center;
     width: 100%;
     max-width: 560px;
+    margin-right: 52px;
 }
 
 /* Promo image */
