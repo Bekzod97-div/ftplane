@@ -482,6 +482,79 @@ img {
     object-fit: contain;
 }
 
+/* Promo styles */
+/* Promo image container */
+.promo__image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 560px;
+}
+
+/* Promo image */
+.promo__image,
+.promo__icon {
+    position: absolute;
+    z-index: 10;
+}
+
+.promo__image--man-lake {
+    z-index: 1;
+    width: 304px;
+    height: 445px;
+}
+
+.promo__image--woman-photo {
+    width: 198px;
+    height: 283px;
+    top: 0;
+    left: 0;
+}
+
+.promo__image--passport {
+    width: 181px;
+    height: 255px;
+    bottom: 0;
+    right: 0;
+}
+
+/* Promo icon */
+.promo__icon--cloud {
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 100px;
+}
+
+.promo__icon--star {
+    display: block;
+    object-fit: cover;
+    width: 82px;
+    height: 62px;
+    top: 100px;
+    right: 45px;
+}
+
+.promo__icon--new-york {
+    object-fit: cover;
+    left: 60px;
+    bottom: 20px;
+    width: 140px;
+    height: 65px;
+}
+
+.promo__icon--air-tickets {
+    left: 16px;
+    bottom: 100px;
+    width: 64px;
+    height: 64px;
+}
+
+
+
+
 /* Retina display */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
