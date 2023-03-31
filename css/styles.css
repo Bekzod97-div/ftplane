@@ -379,6 +379,9 @@ img {
     border-color: transparent;
 }
 
+/* Features styles */
+
+
 /* Retina display */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
