@@ -612,6 +612,144 @@ img {
     z-index: 1;
 }
 
+/* Flight styles */
+.flight {
+    background-color: #010223;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flight__container {
+    display: flex;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+/* Flight content */
+.flight__content {
+    width: 100%;
+    max-width: 496px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: auto;
+}
+
+.flight__title {
+    text-align: left;
+    color: var(--white-color);
+    margin-bottom: 16px;
+}
+
+.flight__description {
+    color: var(--white-seven);
+    margin-bottom: 24px;
+}
+
+.flight__image {
+    display: block;
+    width: 315px;
+    height: 315px;
+}
+
+/* Flight tickets */
+.flight__tickets {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 514px;
+    position: relative;
+}
+
+.flight__tickets-wrapper {
+    margin-right: 84px;
+}
+
+.flight__ticket {
+    z-index: 20;
+    display: block;
+    width: 390px;
+    height: 505px;
+}
+
+.flight__ticket-shadow {
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.second-shadow {
+    top: 40px;
+    left: 40px;
+}
+.third-shadow {
+    top: 60px;
+    left: 60px;
+}
+
+/* Flight tickets controller */
+.flight__tickets-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight__tickets-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Flight tickets button */
+.flight__tickets-button {
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.flight__tickets-button:hover {
+    color: var(--white-color);
+}
+.flight__tickets-button:active {
+    opacity: 0.6;
+}
+
+/* Flight tickets border */
+.flight__tickets-border {
+    display: block;
+    width: 2px;
+    height: 151px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+/* Flight tickets arrow */
+.flight__tickets-arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight__tickets-arrow {
+    width: 40px;
+    height: 40px;
+    padding: 12px 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.flight__tickets-arrow:hover {
+    background-color: var(--blue-color);
+}
+.flight__tickets-arrow:active {
+    opacity: 0.6;
+}
+
+.left-arrow {
+    margin-bottom: 11px;
+}
 
 
 /* Retina display */
