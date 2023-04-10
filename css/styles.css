@@ -765,6 +765,65 @@ img {
     margin-bottom: 11px;
 }
 
+/* Travelars */
+.travelars {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.travelars__title {
+    margin-bottom: 40px;
+}
+
+.travelars__list {
+    display: flex;
+    list-style: none;
+    margin-left: -24px;
+}
+
+.travelars__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding-bottom: 40px;
+    margin-left: 24px;
+    box-shadow: 0px 100px 200px rgba(1, 23, 54, 0.05);
+    border-radius: 213px;
+    background-color: var(--white-color);
+}
+
+.travelars__item-img {
+    display: block;
+    width: 282px;
+    height: 248px;
+    object-fit: contain;
+}
+
+.travelars__item-avatar {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-top: -18px;
+    margin-bottom: 8px;
+}
+
+.travelars__item-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #011736;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.travelars__item-handle {
+    font-weight: 500;
+    color: #979797;
+
+}
 
 /* Retina display */
 @media
