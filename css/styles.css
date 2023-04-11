@@ -56,6 +56,7 @@
     --text-black: #030303;
     --text-silver: #9CA3AF;
     --color-gray: #A7A7A7;
+    --heading-color: #011736;
 }
 
 /* Global styles */
@@ -402,7 +403,7 @@ img {
     line-height: 60px;
     letter-spacing: 1.5%;
     text-align: center;
-    color: var(--text-dark);
+    color: var(--heading-color);
 }
 
 .features__main-title {
@@ -628,7 +629,7 @@ img {
 
 /* Flight styles */
 .flight {
-    background-color: #010223;
+    background-color: var(--heading-color);
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -823,6 +824,118 @@ img {
     font-weight: 500;
     color: #979797;
 
+}
+
+/* Feedback styles */
+.feedback__subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.feedback__title {
+    margin-bottom: 60px;
+}
+
+.feedback__content {
+    display: flex;
+}
+
+.feedback__map {
+    display: block;
+    width: 678px;
+    height: 320px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 21px;
+}
+
+.feedback__testimonials {
+    width: 100%;
+    max-width: 500px;
+}
+
+.feedback__testimonial {
+    width: 100%;
+    background-color: var(--white-color);
+    padding: 30px 21px;
+    box-shadow: 0px 100px 200px rgba(1, 23, 54, 0.1);
+    border-radius: 20px;
+    margin-bottom: 32px;
+}
+
+.feedback__user-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.feedback__user-img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 16px;
+}
+
+.feedback__user-name {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--heading-color);
+    margin-bottom: 8px;
+
+}
+.feedback__stars {
+    width: 104px;
+    height: 13px;
+    object-fit: contain;
+}
+
+.feedback__text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.feedback__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(49, 62, 247, 0.1);
+    color: var(--heading-color);
+    border: none;
+    margin-left: 16px;
+    transition: 0.4s;
+}
+.feedback__button:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+/* Gallery styles */
+.gallery {
+}
+.container {
+}
+.gallery__heading {
+}
+.gallery__list {
+}
+.gallery__item {
+}
+.gallery__img {
 }
 
 /* Retina display */
